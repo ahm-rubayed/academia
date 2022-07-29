@@ -48,11 +48,30 @@ section {
     margin: auto;
 }
 */
+
+/* Success */
+.view-btn:hover,
+.view-btn:focus {
+    background-color: #289BDE;
+}
+
+/* Join  */
 .join .join-item:nth-child(1) {
-    flex-basis: 50%;
+    flex-basis: 60%;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    color: #289BDE;
 }
 
 
 .footer-icon li{
     background-color: #242424;
+}
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50% !important;
+    }
 }
