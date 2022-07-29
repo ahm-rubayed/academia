@@ -19,9 +19,8 @@ section {
     background: #289BDE;
 }
 
-/* Navbar  */
-.navbar-icon {
-    color: #111;
+.transparent-blue {
+    background-color: #F4FAFD;
 }
 
 /* Home  */
@@ -37,17 +36,8 @@ section {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .5) ;
+    background-color: rgba(0, 0, 0, .5);
 }
-
-/* .carousel-content p {
-    font-size: .9rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 15%;
-    margin: auto;
-}
-*/
 
 /* Success */
 .view-btn:hover,
@@ -65,8 +55,20 @@ section {
     color: #289BDE;
 }
 
+.submit-btn:hover,
+.submit-btn:focus,
+.modal-footer button:nth-child(2):hover,
+.modal-footer button:nth-child(2):focus {
+    background: #289BDE;
+}
 
-.footer-icon li{
+/* elearning */
+.elearning img {
+    object-fit: cover;
+}
+
+
+.footer-icon li {
     background-color: #242424;
 }
 
