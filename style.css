@@ -47,12 +47,7 @@ section {
     width: 15%;
     margin: auto;
 }
-
-@media screen and (min-width: 768px) {
-    .text-md-wrap {
-        white-space: wrap !important;
-        width: 100%;
-        text-overflow: unset;
-        overflow: unset;
-    }
-} */
+*/
+.footer-icon li{
+    background-color: #242424;
+}
